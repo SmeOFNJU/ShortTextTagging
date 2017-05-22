@@ -9,3 +9,10 @@ GibbsLDA++: http://gibbslda.sourceforge.net/
 爬虫浏览器驱动：http://htmlunit.sourceforge.net/
 
 HTML解释器：https://jsoup.org/
+
+自然语言处理工具包：http://www.nltk.org/
+
+复杂网络计算软件包：https://networkx.github.io/
+
+矩阵计算函数库：http://www.numpy.org/
+
