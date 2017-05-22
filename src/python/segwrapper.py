@@ -17,7 +17,7 @@ def poscut(s):
         yield w, pos
 
 def extract_tags(s, topK=5, weighted=False):
-	return pynlpir.get_key_words(s, topK, weighted)
+    return pynlpir.get_key_words(s, topK, weighted)
 	
 
 def add_word(w):
