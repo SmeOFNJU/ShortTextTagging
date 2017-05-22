@@ -16,6 +16,9 @@ def poscut(s):
     for w, pos in pynlpir.segment(s):
         yield w, pos
 
+def extract_tags(s, topK=5, weighted=False):
+	return pynlpir.get_key_words(s, topK, weighted)
+	
 
 def add_word(w):
     pynlpir.nlpir.AddUserWord(w)

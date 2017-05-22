@@ -148,5 +148,7 @@ def main():
     print_value()
         
 if __name__ == '__main__':
+	segwrapper.open()
     main()
+	segwrapper.close()
  

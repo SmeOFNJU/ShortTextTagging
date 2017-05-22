@@ -124,7 +124,9 @@ def test_match():
     
 
 if __name__ == '__main__':
+	segwrapper.open()
     make_idf()
+	segwrapper.close()
     print 'over'
             
     
